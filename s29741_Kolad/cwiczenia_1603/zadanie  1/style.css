@@ -1,0 +1,99 @@
+﻿body {
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	background-color: #444;
+	font-family: 'Roboto', sans-serif;
+	color: #eee;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.divBox {
+	width: 60%;
+	height: 15%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #50a8b8;
+}
+
+.innerDiv {
+	width: 90%;
+	height: 100%;
+	/* background-color: #9000ff9c; */
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+}
+
+.innerDiv p {
+	font-size: 40px;
+}
+.btnBox {
+	width: 60%;
+	height: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #bbb;
+}
+
+.divBtn {
+	height: 30%;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.divBtn:last-child {
+	color: #fff;
+	background-color: #999;
+}
+
+.labelBox {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+.labelBox input {
+	height: 90px;
+	width: 100%;
+	background-color: #fff;
+}
+
+#operation {
+	width: 100%;
+	height: 90px;
+	background-color: #bbb;
+	text-align: center;
+	font-size: 40px;
+}
+
+#operation option {
+	text-align: center;
+	font-size: 40px;
+}
+
+button.submitCalc {
+	height: 140px;
+	font-size: 20px;
+}
+
+button.submitCalc:hover {
+	background-color: #129654;
+}
+
+button.submitCalc:active {
+	background-color: #69a185;
+}
