@@ -1,3 +1,39 @@
+<?php
+if($_POST){
+    $num1 = $_POST['firstNum'];
+    $num2 = $_POST['secondNum'];
+    $operation = $_POST['operation'];
+
+    if(is_numeric($num1) && is_numeric($num2)){
+        switch($operation){
+            case "add":
+                $result = $num1+$num2;
+                break;
+            case "sub":
+                $result = $num1-$num2;
+                break;
+            case "mul":
+                $result = $num1*$num2;
+                break;
+            case "div":
+                if($num2 == 0){
+                    $result = "Dividing by 0 not allowed.";
+                }else {
+                    $result = $num1/$num2;
+                }
+                break;
+        }
+    }else{
+        $result = "Please enter a valid numbers.";
+    }
+
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -14,20 +50,22 @@
 <body>
 <div class="divBox">
     <div class="innerDiv">
-        <p id="result"></p>
+        <?php if (isset($result)) { ?>
+        <h3><?php echo $result; ?></h3>
+        <?php } ?>
     </div>
 </div>
-<form action="zadanie1.php" method="POST" class="btnBox">
+<form action="zadanie1.php" method="POST" name="calculator" class="btnBox">
     <div class="labelBox">
-        <label for="firstNum">Pierwsza liczba</label>
-        <input id="firstNum" name="firstNum" type="text" class="divBtn">
+        <label for="firstNum">First number</label>
+        <input id="firstNum" name="firstNum" type="number" class="divBtn" required>
     </div>
     <div class="labelBox">
-        <label for="secondNum">Druga liczba</label>
-        <input id="secondNum" name="secondNum" type="text" class="divBtn">
+        <label for="secondNum">Second number</label>
+        <input id="secondNum" name="secondNum" type="number" class="divBtn" required>
     </div>
     <div class="labelBox">
-        <label for="secondNum">Działanie
+        <label for="secondNum">Operation
             <select name="operation" id="operation" class="divBtn">
                 <option value="add">+</option>
                 <option value="sub">-</option>
@@ -37,17 +75,10 @@
         </label>
     </div>
     <div class="labelBox">
-        <input type="submit" value="Oblicz" id="submitCalc" class="divBtn submitCalc">
+        <input type="submit" value="Submit" id="submitCalc" class="divBtn submitCalc">
     </div>
 </form>
 </body>
 
 </html>
-
-<?php
-if($_POST){
-    echo $_POST["firstNum"];
-    echo $_POST["secondNum"];
-    echo $_POST["operation"]; 
-}
 
