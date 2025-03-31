@@ -1,5 +1,4 @@
 <?php
-$formVisible = true;
 $isDateSet = "hidden";
 $dayOfWeek = "";
 $age = "";
@@ -56,7 +55,7 @@ if (isset($_POST["submit"])) {
 </head>
 <body>
 
-<div class="divBox <?php echo $formVisible; ?>">
+<div class="divBox">
     <fieldset class="outer-fieldset">
         <legend>Date check</legend>
         <form name="primary" action="zadanie1.php" method="POST">
@@ -64,18 +63,14 @@ if (isset($_POST["submit"])) {
             <div class="innerDiv">
                 <label for="birthday">Data urodzenia:</label>
                 <input type="date" name="birthday" id="birthday" required>
-                <!--                <p class="--><?php //echo $isDateSet ?><!--"-->
-                <!--                   style="color: red; text-transform: uppercase;">-->
-                <!--                    Podaj datę urodzenia: --><?php //echo $isDateSet; ?>
-                <!--                </p>-->
             </div>
             <div class="innerDiv">
-                <div class="summary-details"><p>Urodziłeś się w:</p>
+                <div class="summary-details"><p><?php echo $age==0 ?  "Urodzisz " :  "Urodziłeś " ;?>się w:</p>
                     <p><?php echo $dayOfWeek ?></p>
                 </div>
                 <div class="summary-details"><p>Twój wiek</p>
-                    <p><?php echo $age ?> lat</p></div>
-                <div class="summary-details"><p>Następne urodziny za </p>
+                    <p><?php echo $age ?> lat/a</p></div>
+                <div class="summary-details"><p><?php echo $age==0 ?  "Pierwsze " :  "Następne " ;?> urodziny za </p>
                     <p><?php echo $closestBirthday ?> dni</p></div>
             </div>
             <input type="submit" name="submit" id="submit" class="submit">
@@ -84,4 +79,21 @@ if (isset($_POST["submit"])) {
 </div>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+</head>
+<body>
+
 

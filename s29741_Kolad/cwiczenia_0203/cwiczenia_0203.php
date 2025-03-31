@@ -74,16 +74,19 @@ function fibonacci()
         }
     }
 
-    for ($j = 0; $j < count($fibo); $j++) {
-        if ($fibo[$j] % 2 != 0) {
-            echo $line, "\t", $fibo[$j], "\n";
-            $line++;
-        }
-    }
+
+    echo $fibo[count($fibo)-1];
+
+//    for ($j = 0; $j < count($fibo); $j++) {
+//        if ($fibo[$j] % 2 != 0) {
+//            echo $line, "\t", $fibo[$j], "\n";
+//            $line++;
+//        }
+//    }
 }
 
 //
-//fibonacci();
+fibonacci();
 //
 
 //Zadanie 4
