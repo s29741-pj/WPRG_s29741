@@ -9,6 +9,7 @@ $result_recursive = "";
 $iterative_time = "";
 $recursive_time = "";
 $difference_time = "";
+$n = "";
 
 
 if (isset($_POST["submit"])) {
@@ -87,7 +88,7 @@ if (isset($_POST["submit"])) {
                 <input type="number" name="number" id="number" required>
             </div>
             <div class="innerDiv">
-                <h3>Czas obliczenia szukanego wyrazu:</h3>
+                <h3>Czas obliczenia <?php echo $n ?> wyrazu ciągu Fibonacciego</h3>
                 <div class="summary-details"><p>Rekursja:</p>
                     <p><?php echo $recursive_time ?> s</p>
                 </div>
