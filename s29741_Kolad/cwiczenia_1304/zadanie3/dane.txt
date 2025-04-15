@@ -1,0 +1,2 @@
+httpsbss-gda.pja.edu.pl;BSS
+httpswww.wolframalpha.com;WolfamAlpha httpwww.przemo.orgphpBB2forum;phpByPrzemo
