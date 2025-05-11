@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7012f06-071a-46c7-b9fa-ff3b52ce230c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1304/zadanie4/address-list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1304/zadanie4/basic-site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1304/zadanie4/premium-site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1304/zadanie4/zadanie4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +21,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -37,32 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.basic-site.php.executor": "Run",
-    "JavaScript Debug.premium-site.php.executor": "Run",
-    "JavaScript Debug.zadanie1.php.executor": "Run",
-    "JavaScript Debug.zadanie2.php.executor": "Run",
-    "JavaScript Debug.zadanie3.php.executor": "Run",
-    "JavaScript Debug.zadanie4.php.executor": "Run",
-    "PHP Script.cwiczenia_0203.php.executor": "Run",
-    "PHP Script.zadanie1.php.executor": "Run",
-    "PHP Script.zadanie2.php.executor": "Run",
-    "PHP Script.zadanie3.php.executor": "Run",
-    "PHP Script.zadanie4.php.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/PJATK/sem_4/WPRG/ćwiczenia_repo/s29741_Kolad/cwiczenia_1304/zadanie1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propDebugger",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.basic-site.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.premium-site.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.site_1.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.site_2.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.zadanie1.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.zadanie2.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.zadanie3.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.zadanie4.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cwiczenia_0203.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.site_1.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.zadanie1.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.zadanie2.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.zadanie3.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.zadanie4.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PJATK/sem_4/WPRG/ćwiczenia_repo/s29741_Kolad/cwiczenia_1304/zadanie1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_1304\zadanie1" />
@@ -87,8 +89,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26053.13" />
-        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26053.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PS-251.23774.466" />
+        <option value="bundled-php-predefined-a98d8de5180a-aaeaa8632555-com.jetbrains.php.sharedIndexes-PS-251.23774.466" />
       </set>
     </attachedChunks>
   </component>
@@ -111,7 +113,21 @@
       <workItem from="1744532030616" duration="7281000" />
       <workItem from="1744663346771" duration="10823000" />
       <workItem from="1744833963674" duration="4118000" />
-      <workItem from="1744839051902" duration="3564000" />
+      <workItem from="1744839051902" duration="5164000" />
+      <workItem from="1745962838126" duration="2801000" />
+      <workItem from="1746051606618" duration="605000" />
+      <workItem from="1746479299568" duration="766000" />
+      <workItem from="1746566097895" duration="1349000" />
+      <workItem from="1746644260862" duration="2153000" />
+      <workItem from="1746737583734" duration="598000" />
+      <workItem from="1746886588636" duration="595000" />
+      <workItem from="1746951350449" duration="5052000" />
+      <workItem from="1746977165532" duration="2693000" />
+      <workItem from="1746979882070" duration="156000" />
+      <workItem from="1746980054995" duration="515000" />
+      <workItem from="1746980587836" duration="468000" />
+      <workItem from="1746981078202" duration="69000" />
+      <workItem from="1746981170136" duration="2088000" />
     </task>
     <servers />
   </component>
