@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7012f06-071a-46c7-b9fa-ff3b52ce230c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/z3/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z1/site_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z1/site_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/z1/site_3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +35,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.basic-site.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.premium-site.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.site_1.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.site_2.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.zadanie1.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.zadanie2.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.zadanie3.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.zadanie4.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.cwiczenia_0203.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.site_1.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.zadanie1.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.zadanie2.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.zadanie3.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.zadanie4.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PJATK/sem_4/WPRG/ćwiczenia_repo/s29741_Kolad/cwiczenia_1304/zadanie1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.basic-site.php.executor": "Run",
+    "JavaScript Debug.index.php.executor": "Run",
+    "JavaScript Debug.premium-site.php.executor": "Run",
+    "JavaScript Debug.site_1.php.executor": "Run",
+    "JavaScript Debug.site_2.php.executor": "Run",
+    "JavaScript Debug.zadanie1.php.executor": "Run",
+    "JavaScript Debug.zadanie2.php.executor": "Run",
+    "JavaScript Debug.zadanie3.php.executor": "Run",
+    "JavaScript Debug.zadanie4.php.executor": "Run",
+    "PHP Script.cwiczenia_0203.php.executor": "Run",
+    "PHP Script.index.php.executor": "Run",
+    "PHP Script.site_1.php.executor": "Run",
+    "PHP Script.zadanie1.php.executor": "Run",
+    "PHP Script.zadanie2.php.executor": "Run",
+    "PHP Script.zadanie3.php.executor": "Run",
+    "PHP Script.zadanie4.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/PJATK/sem_4/WPRG/ćwiczenia_repo/s29741_Kolad/cwiczenia_1005/z3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propDebugger",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_1304\zadanie1" />
@@ -127,7 +128,9 @@
       <workItem from="1746980054995" duration="515000" />
       <workItem from="1746980587836" duration="468000" />
       <workItem from="1746981078202" duration="69000" />
-      <workItem from="1746981170136" duration="2088000" />
+      <workItem from="1746981170136" duration="2174000" />
+      <workItem from="1747087569905" duration="5628000" />
+      <workItem from="1747093762747" duration="300000" />
     </task>
     <servers />
   </component>

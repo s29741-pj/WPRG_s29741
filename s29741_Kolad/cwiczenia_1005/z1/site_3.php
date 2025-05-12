@@ -1,8 +1,8 @@
 <?php
 session_start();
 $form_data = $_SESSION['form_data'];
-var_dump($form_data);
-exit;
+//var_dump($form_data);
+//exit;
 ?>
 <!doctype html>
 <html lang="en">
@@ -24,14 +24,13 @@ exit;
     </tr>
     </thead>
     <tbody>
-    <?php foreach ($form_data as $index => $person): ?>
+    <?php for($i=0; $i<$form_data[0]['persons'][0]; $i++){ ?>
         <tr>
-            <td><?= $index + 1 ?></td>
-            <td><?= htmlspecialchars($person['name']) ?></td>
-            <td><?= htmlspecialchars($person['surname']) ?></td>
-            <td><?= htmlspecialchars($person['card']) ?></td>
+            <td><?= $i + 1 ?></td>
+            <td><?= htmlspecialchars($form_data[0]['name'][$i]) ?></td>
+            <td><?= htmlspecialchars($form_data[0]['surname'][$i]) ?></td>
+            <td><?= htmlspecialchars($form_data[0]['card'][$i]); }?></td>
         </tr>
-    <?php endforeach; ?>
     </tbody>
 </table>
 </body>
