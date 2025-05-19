@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7012f06-071a-46c7-b9fa-ff3b52ce230c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/add_car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/all_cars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/main_page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/views/main_page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z1/site_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_1/z1/site_1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z1/site_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_1/z1/site_2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z1/site_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_1/z1/site_3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_1/z2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/z3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_1/z3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/add_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/views/add_car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/all_cars.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/views/all_cars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/views/main_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/cwiczenia_1005/zestaw_2/cars/views/details.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,7 @@
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_2903\zadanie1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_1005\zestaw_2\cars" />
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_1005\zestaw_2\cars\db" />
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_1005\zestaw_1" />
       <recent name="D:\PJATK\sem_4\WPRG\ćwiczenia_repo\s29741_Kolad\cwiczenia_2903\zadanie2" />
@@ -140,6 +137,9 @@
       <workItem from="1747087569905" duration="5628000" />
       <workItem from="1747093762747" duration="1692000" />
       <workItem from="1747124870098" duration="3022000" />
+      <workItem from="1747254150025" duration="4192000" />
+      <workItem from="1747564961005" duration="2344000" />
+      <workItem from="1747679596506" duration="12043000" />
     </task>
     <servers />
   </component>
